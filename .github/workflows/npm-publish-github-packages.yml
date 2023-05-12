@@ -4,8 +4,6 @@
 name: Node.js Package
 
 on:
-  schedule:
-    - cron:  '20 19 * * *'   # every day at 18:30 UTC
   workflow_dispatch:
 
 jobs:
